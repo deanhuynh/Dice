@@ -22,7 +22,6 @@ void draw()
 			rollTotal += bob.roll();
 		}
 	}
-	System.out.println(rollTotal);
 	fill(119, 181, 254);
 	rect(180, 360, 40, 40);
 	fill(255);
