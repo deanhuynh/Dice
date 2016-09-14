@@ -13,6 +13,7 @@ void setup()
 }
 void draw()
 {
+	background(119, 181, 254);
 	for(int x = 60; x < 350; x += 50)
 	{
 		for(int y = 60; y < 350; y += 50)
@@ -22,8 +23,6 @@ void draw()
 			rollTotal += bob.roll();
 		}
 	}
-	fill(119, 181, 254);
-	rect(180, 360, 40, 40);
 	fill(255);
 	text("current roll:", 200, 360);
 	text(rollTotal, 200, 380);
